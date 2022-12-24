@@ -1,2 +1,18 @@
 $font-family-sans-serif: "Rubik", arial, sans-serif;
 $font-family-serif: "Playfair Display", times, serif;
+
+.owl-prev,
+.owl-next {
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+  background-color: #fff;
+  color: #333;
+}
