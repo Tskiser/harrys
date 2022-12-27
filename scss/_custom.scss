@@ -16,3 +16,20 @@ $font-family-serif: "Playfair Display", times, serif;
   background-color: #fff;
   color: #333;
 }
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.w-full{
+  width: 100vw;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.bg-darken{
+  background-color: #00000088;
+}

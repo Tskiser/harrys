@@ -14,6 +14,23 @@
   color: #333;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.w-full {
+  width: 100vw;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.bg-darken {
+  background-color: rgba(0, 0, 0, 0.5333333333);
+}
+
 body {
   background: #fff;
   font-family: "Rubik", arial, sans-serif;
@@ -52,7 +69,6 @@ header .navbar-brand {
 header .navbar {
   padding-top: 0;
   padding-bottom: 0;
-  background: transparent !important;
 }
 @media (max-width: 991.98px) {
   header .navbar {
@@ -143,7 +159,6 @@ header .navbar.navbar-light .nav-link.active {
 .site-hero {
   background-size: cover;
   background-position: center center;
-  min-height: 750px;
   height: 100vh;
 }
 .site-hero > .container {
@@ -184,7 +199,6 @@ header .navbar.navbar-light .nav-link.active {
   }
 }
 .site-hero .site-hero-inner {
-  min-height: 750px;
   height: 100vh;
 }
 

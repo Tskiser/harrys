@@ -44,7 +44,6 @@ header {
 	.navbar {
 		padding-top: 0;
 		padding-bottom: 0;
-		background: transparent!important;
 		@include media-breakpoint-down(md) {
 			background: rgba(0,0,0,.4)!important;
 			padding-top: .5rem;
@@ -145,7 +144,7 @@ header {
 .site-hero {
 	background-size: cover;
 	background-position: center center;
-	min-height: 750px;
+	// min-height: 750px;
 	height: 100vh;
 
 	> .container {
@@ -179,7 +178,7 @@ header {
 		}
 	}
 	.site-hero-inner {
-		min-height: 750px;
+		// min-height: 750px;
 		height: 100vh;
 	}
 }

@@ -52,6 +52,16 @@
     autoplayHoverPause: true,
   });
 
+  $('#header-carousel').owlCarousel({
+    loop: true,
+    items: 1,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    // animateOut: 'fadeOut',
+    // animateIn: 'slideInRight',
+    smartSpeed: 600,
+  });
+
 
   // home slider
   $('.home-slider').owlCarousel({
