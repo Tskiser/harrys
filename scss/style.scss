@@ -39,11 +39,9 @@ header {
 		color: $white!important;
 	}
 
-
-
 	.navbar {
-		padding-top: 0;
-		padding-bottom: 0;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 		@include media-breakpoint-down(md) {
 			background: rgba(0,0,0,.4)!important;
 			padding-top: .5rem;
