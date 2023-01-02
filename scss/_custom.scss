@@ -23,11 +23,11 @@ $font-family-serif: "Playfair Display", times, serif;
 }
 
 .w-full {
-  min-width: 100vw;
+  object-fit: cover;
 }
 
-.h-full {
-  min-height: 100vh;
+.h-responsive {
+  height: 100vmin;
 }
 
 .overflow-hidden {
@@ -35,17 +35,18 @@ $font-family-serif: "Playfair Display", times, serif;
 }
 
 .bg-darken {
-  background-color: #00000088;
+  background-color: #816747aa;
 }
 
 .hero-title {
   position: absolute;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  // justify-content: center;
   width: 100%;
-  height: 100%;
-  font-size: 5vw;
+  height: 100vmin;
+  font-size: 4vmax;
+  padding: 5px 15px;
   color: #fff;
   text-shadow: 0 0 4px #000;
   font-family: "Playfair Display", times, serif;
@@ -55,6 +56,14 @@ $font-family-serif: "Playfair Display", times, serif;
   z-index: 2;
 }
 
-.owl-carousel .owl-item img {
-  width: auto;
+.media-body {
+  height: 90vh;
+}
+
+.text-lg {
+  font-size: clamp(16px, 2vmax, 20px);
+}
+
+.border-top-brown{
+  border-top: 10px solid #b99365;
 }

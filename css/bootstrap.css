@@ -3282,6 +3282,7 @@ tbody.collapse.show {
 
 .navbar-nav {
   display: flex;
+  gap: 3rem;
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
@@ -3305,6 +3306,7 @@ tbody.collapse.show {
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
+  justify-content: space-between;
   align-items: center;
 }
 

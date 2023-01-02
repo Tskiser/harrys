@@ -44,7 +44,7 @@
         items: 1
       },
       600: {
-        items: 2
+        items: 3
       }
     },
     animateOut: 'fadeOut',
@@ -55,10 +55,9 @@
   $('#header-carousel').owlCarousel({
     loop: true,
     items: 1,
+    center: true,
     autoplay: true,
     autoplayTimeout: 5000,
-    // animateOut: 'fadeOut',
-    // animateIn: 'slideInRight',
     smartSpeed: 600,
   });
 

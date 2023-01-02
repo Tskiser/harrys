@@ -61,6 +61,7 @@
 
 .navbar-nav {
   display: flex;
+  gap: 3rem;
   flex-direction: column; // cannot use `inherit` to get the `.navbar`s value
   padding-left: 0;
   margin-bottom: 0;
@@ -100,6 +101,7 @@
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 1;
+  justify-content: space-between;
   // For always expanded or extra full navbars, ensure content aligns itself
   // properly vertically. Can be easily overridden with flex utilities.
   align-items: center;
