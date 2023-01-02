@@ -23,7 +23,11 @@ $font-family-serif: "Playfair Display", times, serif;
 }
 
 .w-full {
-  width: 100vw;
+  min-width: 100vw;
+}
+
+.h-full {
+  min-height: 100vh;
 }
 
 .overflow-hidden {
@@ -41,7 +45,7 @@ $font-family-serif: "Playfair Display", times, serif;
   justify-content: center;
   width: 100%;
   height: 100%;
-  font-size: 5rem;
+  font-size: 5vw;
   color: #fff;
   text-shadow: 0 0 4px #000;
   font-family: "Playfair Display", times, serif;
@@ -49,4 +53,8 @@ $font-family-serif: "Playfair Display", times, serif;
 
 .z-99 {
   z-index: 2;
+}
+
+.owl-carousel .owl-item img {
+  width: auto;
 }
