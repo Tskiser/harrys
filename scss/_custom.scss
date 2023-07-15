@@ -35,7 +35,7 @@ $font-family-serif: "Playfair Display", times, serif;
 }
 
 .bg-darken {
-  background-color: #816747aa;
+  background-color: rgba(0, 0, 0, 0.667);
 }
 
 .hero-title {
@@ -57,7 +57,7 @@ $font-family-serif: "Playfair Display", times, serif;
 }
 
 .media-body {
-  height: 90vh;
+  height: 60ch;
 }
 
 .text-lg {
@@ -66,4 +66,12 @@ $font-family-serif: "Playfair Display", times, serif;
 
 .border-top-brown{
   border-top: 10px solid #b99365;
+}
+
+.bg-brown{
+  background-color: #b99365;
+}
+
+.h-half{
+  height: 50%;
 }
