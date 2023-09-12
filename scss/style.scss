@@ -74,13 +74,15 @@ header {
 			}
 		}
 
-		.dropdown {
-			&.show {
-				> a {
-					color: $white!important;
-				}
-			}
-		}
+    #sub_dropdown {
+      color: $black;
+      & #sub_dropdown_inside{
+        color: $black;
+      }
+      &:hover #sub_dropdown_inside {
+        color: $white !important;
+      }
+    }
 
 		.dropdown-menu {
 			font-size: 14px;

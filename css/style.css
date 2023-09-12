@@ -139,7 +139,13 @@ header .navbar .cta > a span {
   padding: 10px 20px;
   border: 2px solid #ccc;
 }
-header .navbar .dropdown.show > a {
+header .navbar #sub_dropdown {
+  color: #000;
+}
+header .navbar #sub_dropdown #sub_dropdown_inside {
+  color: #000;
+}
+header .navbar #sub_dropdown:hover #sub_dropdown_inside {
   color: #fff !important;
 }
 header .navbar .dropdown-menu {
