@@ -9,7 +9,6 @@
 // Navbar position
 // Navbar themes
 
-
 // Navbar
 //
 // Provide a static navbar from which we expand to create full-width, fixed, and
@@ -21,6 +20,7 @@
   flex-wrap: wrap; // allow us to do the line break for collapsing content
   align-items: center;
   justify-content: space-between; // space out brand from logo
+  padding: 0.1rem $navbar-padding-x;
 
   // Because flex properties aren't inherited, we need to redeclare these first
   // few properities so that content nested within behave properly.
@@ -32,7 +32,6 @@
     justify-content: space-between;
   }
 }
-
 
 // Navbar brand
 //
@@ -52,7 +51,6 @@
     text-decoration: none;
   }
 }
-
 
 // Navbar nav
 //
@@ -77,7 +75,6 @@
   }
 }
 
-
 // Navbar text
 //
 //
@@ -87,7 +84,6 @@
   padding-top: $nav-link-padding-y;
   padding-bottom: $nav-link-padding-y;
 }
-
 
 // Responsive navbar
 //
@@ -182,7 +178,7 @@
         }
 
         .navbar-collapse {
-          display: flex !important;  // stylelint-disable-line declaration-no-important
+          display: flex !important; // stylelint-disable-line declaration-no-important
 
           // Changes flex-bases to auto because of an IE10 bug
           flex-basis: auto;
@@ -202,7 +198,6 @@
     }
   }
 }
-
 
 // Navbar themes
 //

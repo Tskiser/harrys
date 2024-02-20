@@ -35,20 +35,26 @@
     console.log('show');
   });
 
-  $('#my-carousel').owlCarousel({
+  $("#my-carousel").owlCarousel({
     loop: true,
     margin: 10,
     nav: true,
     responsive: {
       0: {
-        items: 1
+        items: 1,
       },
-      600: {
-        items: 3
-      }
+      200: {
+        items: 1,
+      },
+      500: {
+        items: 2,
+      },
+      900: {
+        items: 3,
+      },
     },
-    animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
+    animateOut: "fadeOut",
+    animateIn: "fadeIn",
     autoplayHoverPause: true,
   });
 

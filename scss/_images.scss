@@ -9,7 +9,6 @@
   @include img-fluid;
 }
 
-
 // Image thumbnails
 .img-thumbnail {
   padding: $thumbnail-padding;
@@ -39,4 +38,9 @@
 .figure-caption {
   font-size: $figure-caption-font-size;
   color: $figure-caption-color;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
 }
